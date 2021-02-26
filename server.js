@@ -2,6 +2,8 @@ const express = require('express')
 const mongoose = require('mongoose')
 const morgan = require('morgan')
 const path = require('path')
+
+const isProd = process.env.NODE_ENV === 'production';
 require('dotenv').config()
 
 const Jam = require('./models/jam')

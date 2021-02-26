@@ -16,10 +16,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "dotenv": "^8.2.0",
     "nodemon": "^2.0.4"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "axios": "^0.19.2",
     "express": "^4.17.1",
     "mongoose": "^5.9.20",
