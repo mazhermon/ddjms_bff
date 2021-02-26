@@ -29,11 +29,11 @@ app.use(express.json())
 app.use(urlencoded({ extended: false }))
 app.use('/api', jamRoutes)
 
-app.get('/', (req, res) => {
-  res.json({
-    message: 'base api route hit, use /api for all the jams routes'
-  })
-})
+// app.get('/', (req, res) => {
+//   res.json({
+//     message: 'base api route hit, use /api for all the jams routes'
+//   })
+// })
 
 const data = {
   id: '0001',
